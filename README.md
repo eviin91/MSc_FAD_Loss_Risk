@@ -27,20 +27,21 @@ The study integrates **environmental (waves, currents)** and **anthropogenic (ve
   install.packages(c("terra", "sf", "dplyr", "tidyr", "ggplot2", "viridis", "classInt", "lubridate", "stars"))
 
 ## WorkFlow Overview
-
-Data acquisition
-Wave height (VHM0) from Copernicus Marine Service (CMEMS)
-Current velocity from Metocean Data Repository of the Balearic Islands Coastal Observing and Forecasting System, via the Western Mediterranean Operational Model (SOCIB) 
-Vessel density data from EMODnet Human Activities
-Preprocessing in R
-Extraction and normalization of raster variables
-Calculation of the 90th percentile (p90) for wave height and current velocity
-Spatial clipping to the Mallorca domain
-Multi-Criteria Analysis (MCA)
-Weighted linear combination of standardized variables
-Weights derived from regression-based importance (R² method)
-Risk Classification
-Risk map classified into five categories: Very Low → Very High
-Visualization
-Raster outputs plotted in R and finalized in QGIS for cartographic refinement (optional)
+```
+- Data acquisition
+- Wave height (VHM0) from Copernicus Marine Service (CMEMS)
+- Current velocity from Metocean Data Repository of the Balearic Islands Coastal Observing and Forecasting System, via the Western Mediterranean Operational Model (SOCIB) 
+- Vessel density data from EMODnet Human Activities
+- Preprocessing in R
+- Extraction and normalization of raster variables
+- Calculation of the 90th percentile (p90) for wave height and current velocity
+- Spatial clipping to the Mallorca domain
+- Multi-Criteria Analysis (MCA)
+- Weighted linear combination of standardized variables
+- Weights derived from regression-based importance (R² method)
+- Risk Classification
+- Risk map classified into five categories: Very Low → Very High
+- Visualization
+- Raster outputs plotted in R and finalized in QGIS for cartographic refinement (optional)
+```
 
