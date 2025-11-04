@@ -8,6 +8,7 @@ The study integrates **environmental (waves, currents)** and **anthropogenic (ve
 ---
 
 ## Repository Structure
+```
 ├── SourceData/ # Raw datasets (NetCDF, shapefiles, .csv, etc.)
 ├── CurrentData/ # R scripts for current data preprocessing and MCA computation
 ├── WaveData/ # R scripts for wave data preprocessing and MCA computation
@@ -15,6 +16,7 @@ The study integrates **environmental (waves, currents)** and **anthropogenic (ve
 ├── RiskData/ # R scripts for final risk index of aFAD loss and map computation
 ├── outputs/ # Generated maps and results
 └── README.md # Project documentation
+```
 
 ## Requirements
 
